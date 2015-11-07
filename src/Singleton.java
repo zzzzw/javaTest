@@ -1,5 +1,5 @@
 
-public class Singleton {
+/*public class Singleton {
 	//构造方法
 	private Singleton(){
 		
@@ -10,7 +10,18 @@ public class Singleton {
 	public Singleton getInstance(){
 		return instance;
 	}
+}*/
+public class Singleton{
+	private Singleton(){
+		
+	}
+	private static Singleton instance=new Singleton();
+	public Singleton getInstance()
+	{
+		return instance;
+	}
 }
+
 
 /*public class Singleton{
 	private Singleton(){
