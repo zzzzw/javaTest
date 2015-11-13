@@ -1,7 +1,7 @@
 package $interface;
 
 public abstract class AbstractTools {
-	private String abs01;
+	private String abs01;//private的要设置访问器，外部的才可以访问
 	private String abs02;
 	public AbstractTools(String abs01,String abs02)
 	{
