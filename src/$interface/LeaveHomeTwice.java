@@ -21,6 +21,7 @@ public class LeaveHomeTwice extends LeaveHomeImpl{
 		zzw=a;
 		return zzw;
 		
+		
 	}
 	
 	public static void main(String args[])
