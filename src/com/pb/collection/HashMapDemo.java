@@ -29,7 +29,7 @@ public class HashMapDemo {
 			System.out.println("value:"+hasMap.get(key));		
 		}
 		
-		//遍历HashMap的另外一个方法
+		//遍历HashMap的另外一个方法，用一个set来装
 		System.out.println("hasMap.keySet"+hasMap.keySet());
 		System.out.println("hasMap.value:"+hasMap.values());
 		System.out.println("hasMap.entrySet:"+hasMap.entrySet());
