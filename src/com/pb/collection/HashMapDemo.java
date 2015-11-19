@@ -24,6 +24,7 @@ public class HashMapDemo {
 		//采用Itertator遍历HashMap
 		Iterator it=hasMap.keySet().iterator();
 		while(it.hasNext()){
+			System.out.println("采用Itertator遍历HashMap------------------------------------s    ");
 			String key=(String)it.next();
 			System.out.println("key:"+key);
 			System.out.println("value:"+hasMap.get(key));		
